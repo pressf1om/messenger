@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <head>
+    <meta charset="utf-8">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/1.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Vibur" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Main</title>
+    <style>
+        .updates_desctop_client_for_user {
+            border: 7px dashed #0866d1;
+            width: 700px;
+            margin: 0 auto;
+        }
+    </style>
+  </head>
+</head>
+<body>
+  <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+        <h5 class="my-0 mr-md-auto font-weight-normal">QC Messenger</h5>
+        <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-dark" href="/home">Home</a>
+        <a class="p-2 text-dark" href="/download">Download</a>
+        <a class="p-2 text-dark" href="/description">Description</a>
+        <a class="p-2 text-dark" href="/about">About the project</a>
+        <a class="p-2 text-dark" href="/sup">Support</a>
+        <a class="p-2 text-dark" href="/login/reg">Registration</a>
+    </nav>
+</div>
+    <div class="updates_desctop_client_for_user" align="center">
+        {% for el in data %}
+            <h1>Update:</h1>
+            {{ el.updates_desctop_client }}
+            <h1>ID of update:</h1>
+            {{ el.id }}
+            <h1>Date of update:</h1>
+            {{ el.updates_desctop_client_date_time }}
+            <h1>Update Description:</h1>
+            {{ el.disc_of_update }}
+            <h1>Link:</h1>
+            <a>{{ el.link }}</a>
+            <h1>-------------------------------------</h1>
+        {% endfor %}
+    </div>
+</body>
+</html>

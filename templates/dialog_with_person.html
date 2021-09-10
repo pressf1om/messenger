@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+<!--
+<style>
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #1F1C81;
+}
+.main_print_window {
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+.main_print_window:before {
+  content: "";
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  border-top: 2px solid deeppink;
+  border-left: 2px solid deeppink;
+}
+.main_print_window:after {
+  content: "";
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  border-bottom: 2px solid deepskyblue;
+  border-right: 2px solid deepskyblue;
+  left: 20%;
+  top: 20%;
+}
+</style>
+-->
+</head>
+<body>
+
+<!--
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+        <h5 class="my-0 mr-md-auto font-weight-normal">QC Messanger</h5>
+        <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-dark" href="/main">Home</a>
+        <a class="p-2 text-dark" href="/dialogs/{{ name_auth }}">Dialogs</a>
+    </nav>
+</div>
+-->
+
+<div class="main_print_window">
+    {% for el in data %}
+    <h1>{{ el.text }}</h1>
+    {% endfor %}
+</div>
+
+</body>
+</html>
