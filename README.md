@@ -1,9 +1,12 @@
 <h1>QC Messenger</h1>
+
+------------------------------------------------------
 Description: The messenger consists of 2 parts. 
 This is the client part and the server part.
 
-
-<li>Technologies that were used for the backend: </li>
+------------------------------------------------------
+    <li>Technologies that were used for the backend: </li>
+------------------------------------------------------
 <li>1. os</li>
 
 <li>2. flask</li>
@@ -26,8 +29,9 @@ This is the client part and the server part.
 
 <li>11. itsdangerous</li>
 
-
-    Technologies that were used for the client side:
+------------------------------------------------------
+    <li>Technologies that were used for the client side: </li>
+------------------------------------------------------
 <li>1. os</li>
 
 <li>2. traceback</li>
@@ -58,8 +62,9 @@ This is the client part and the server part.
 
 <li>15. win10toast</li>
 
-
+------------------------------------------------------
     How to start using:
+ ------------------------------------------------------
 <h4>1. Register on the website</h4>
 <h4>2. Download the app</h4>
 <h4>3. Complete the authorization process</h4>
