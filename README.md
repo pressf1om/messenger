@@ -52,11 +52,11 @@ This is the client part and the server part.
 
 <li>10. sys</li>
 
-<li>11. PyQt5.QtCore import *</li>
+<li>11. PyQt5.QtCore</li>
 
-<li>12. PyQt5.QtWidgets import *</li>
+<li>12. PyQt5.QtWidgets</li>
 
-<li>13. PyQt5.QtGui import *</li>
+<li>13. PyQt5.QtGui</li>
 
 <li>14. glob</li>
 
