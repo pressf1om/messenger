@@ -5,7 +5,7 @@ Description: The messenger consists of 2 parts.
 This is the client part and the server part.
 
 ------------------------------------------------------
-    <li>Technologies that were used for the backend: </li>
+    Technologies that were used for the backend: 
 ------------------------------------------------------
 <li>1. os</li>
 
@@ -30,7 +30,7 @@ This is the client part and the server part.
 <li>11. itsdangerous</li>
 
 ------------------------------------------------------
-    <li>Technologies that were used for the client side: </li>
+    Technologies that were used for the client side:
 ------------------------------------------------------
 <li>1. os</li>
 
